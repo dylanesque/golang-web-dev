@@ -6,6 +6,7 @@
 </head>
 <body>
 
+<!-- We don't have to declare the data point we're looping over since it gets fed into the template in the other file??? -->
 {{range .}}
     {{.Fall.Term}} {{.AcaYear}}<br>
     {{range .Fall.Courses}}
