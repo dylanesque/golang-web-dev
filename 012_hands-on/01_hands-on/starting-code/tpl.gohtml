@@ -6,9 +6,12 @@
 </head>
 <body>
 
-{{range .}}
-
-<!-- PUT YOUR CODE HERE TO SHOW THE DATA-->
+{{range .years}}
+<h2>{{ .AcaYear }}</h2>
+<h3>{{ Fall.Term }}</h3>
+{{range .courses}} 
+    <p><strong>{{ course[0]}}</strong></p>
+{{end}}
 
 {{end}}
 
